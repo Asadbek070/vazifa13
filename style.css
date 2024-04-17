@@ -1,0 +1,34 @@
+.container{
+    background-color: blue;
+    height: 300px;
+    width: 700px;
+    margin: 150px 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    border: 2px solid white;
+    width: 80px;
+    height: 150px;
+    border-radius: 50px;
+}
+.box{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    animation: A07 2s infinite ;
+}
+@keyframes A07{
+    0%{
+       top: 10px;
+    }
+    100%{
+        top:120px;
+        background-color: blue;
+    }
+}
